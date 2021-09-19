@@ -15,11 +15,11 @@ This repo is for setting up wrf on AWS.
    - Click on actions, networking, change security groups  
    - Select default group and assign group
 
-3. Clone wrf-cloud9 repo to your cloud9 instance
+3. Clone wrf_aws repo to your cloud9 instance
 
 4. Run the following commands to install packages and mount storage
 
-    `$ cd wrf-cloud9`   
+    `$ cd wrf_aws`   
     `$ ./go`  
 
 5. To run wrf first edit namelist files for your own application
@@ -45,11 +45,11 @@ This repo is for setting up wrf on AWS.
 
 1. For post-processing login to your workspace
 
-2. Open a terminal and clone wrf-cloud9
+2. Open a terminal and clone wrf_aws
 
 3. again run the following commands  
     
-    `$ cd wrf-cloud9`  
+    `$ cd wrf_aws`  
     `$ ./go`  
 
 4. This will setup a python conda environment  
